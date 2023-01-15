@@ -1,0 +1,80 @@
+.titlec{
+  text-align: center;
+}
+.home-container {
+  box-sizing: border-box;
+  background: #fff;
+  margin: 0;
+  min-height: calc(100vh - 44px);
+  padding: 30px 0;
+  overflow: hidden;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.pin {
+  min-height: calc(100vh - 44px);
+  text-align: center;
+}
+
+.pincode-input-container {
+  margin: 30px 0 0;
+  text-align: center;
+}
+.pincode-input-container input {
+  background: #546171 !important;
+  border-radius: 15px;
+  width: 95px !important;
+  height: 95px !important;
+  color: #fff !important;
+  border: 1px solid #212a35 !important;
+  margin: 0px 10px !important;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.hg-theme-default {
+  background-color: #212a35;
+  margin: 30px auto 0;
+  width: 450px !important;
+}
+
+.hg-theme-default .hg-button {
+  background: #3a4756;
+  color: #fff;
+  font-size: 30px;
+  width: 120px !important;
+}
+
+.hg-theme-default .hg-row .hg-button:not(:last-child) {
+  margin-right: 10px;
+}
+.hg-theme-default .hg-row .hg-button {
+  margin-bottom: 10px;
+}
+#todaysDate {
+  margin-bottom: 100px;
+}
+.hg-theme-default .hg-layout-numeric .hg-button {
+  width: 120px !important;
+  height: 85px;
+  border: none;
+}
+.hg-theme-default.hg-layout-numeric .hg-button{
+  height: 50px !important;
+  width: 120px !important;
+}
+.hg-theme-default.hg-layout-numeric .hg-button span{
+  color: #000;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

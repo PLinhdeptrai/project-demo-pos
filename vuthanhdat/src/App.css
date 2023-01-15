@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
+
+.form-login{
+  background-color: #fff;
+}
+.login-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.login-left{
+  margin-right: 30px;
+}
+
+.login-form{
+  
+}
+.login-avt{
+  text-align: center;
+}
+.login-avt img{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.login-title >p {
+  margin-right: 4px;
+}
+.login-title{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+input[type=username], input[type=password] {
+  width: 82%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+.login-input::focus{
+  border: red;
+}
+
+.login-title{
+  text-align: center;
+  font-family: 'Cormorant Infant', serif;
+}
+
+.login-button{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-submit {
+  font-size: 16px;
+  line-height: 1.2;
+  padding: 4px 12px;
+  min-width: 120px;
+  border-radius: 40px;
+  background: #fff;
+  cursor: pointer;
+  z-index: 1;
+  border: 1px solid #ccc;
+  outline: 0;
+  display: block;
+  margin: 30px 6px;
+}
+
+.login-container .btn-button{
+  font-size: 16px;
+  line-height: 1.2;
+  padding: 0 12px;
+  min-width: 120px;
+  height: 40px;
+  border-radius: 25px;
+  background: #fff;
+  cursor: pointer;
+  z-index: 1;
+  border: 0;
+  outline: 0;
+  display: block;
+  margin: 30px auto;
+}
+
+.css-1v1zoz0-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-size: 12px;
+}
+
+.check-box{
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Login right */
+
+.login-right{
+
+}
+
+.login-right .login-logo{
+  width: 280px;
+  height: 400px;
+}
